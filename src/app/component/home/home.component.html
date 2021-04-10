@@ -1,0 +1,38 @@
+<!-- data-aos="customAnimation" class="customAnimations" data-aos="flip-left" data-aos="flip-right" -->
+<section class="customAnimations">
+    <div class="container">
+        <div  data-aos="fade-down"
+        data-aos-duration="2000" class="row" style="padding: 100px;">
+            <h1>HELLO,</h1>
+            <div class="col-sm-12">
+               <h3> I believe there is always something to learn and in this technological era and its rapid pace,<br> there's always something new!<br> I enjoy collaborating with others to gain different perspectives to refine strategies. <br>
+                My perpetual curiosity drives the analytical side of my brain as I search for (and find) answers. <br>
+                I am also a detailed-oriented, responsible, and committed engineer, <br> with a get-it-done, on-time, and high-quality product spirit. 
+                </h3>   
+            </div>
+            <div class="quote" style="padding-top: 50px;">
+            <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p>You can never understand everything. <br> But, you should push yourself to understand the system.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Ryan Dahl <cite title="Source Title">(Creator of Node JS)</cite>
+                </figcaption>
+              </figure>
+            </div>  
+        </div><img src="../../../assets/dashboard.png" alt="">
+        <button class="btn btn-primary mb-3" style="margin-left: 90px;" routerLink="enquiry">Make an enquiry</button>
+        <button class="btn btn-primary mb-3" style="margin-left: 100px;">Schedule a meet</button>
+    </div>
+</section>
+<app-products></app-products>
+<app-mywork></app-mywork>
+<app-about></app-about>
+<app-contact></app-contact>
+<h1 class="jumbotron" style="text-align: center;">FIND ME!</h1>
+<agm-map [latitude]="26.43021" [longitude]="80.295986" >
+    <agm-marker [latitude]="26.43021" [longitude]="80.295986">
+      <!-- <agm-info-window>Börk</agm-info-window> -->
+    </agm-marker>
+</agm-map>
+  
